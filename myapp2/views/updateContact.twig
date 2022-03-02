@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>Update</h1>
+<form method="post" action="/contact/update">
+  <div class="mb-3">
+    <label >FullName</label>
+    <input type="text" name="FullName" id="FullName" value="{{data.FullName}}" >
+ 
+  </div>
+  <div class="mb-3">
+    <label> Phone Number</label>
+    <input type="number"  name="Phone" name="Phone" value="{{data.Phone}}">
+  </div>
+  <div class="mb-3">
+    <label> ID</label>
+    <input type="text"  name="id" name="id" value="{{data._id}}">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">OK</button>
+</form>
+</body>
+</html>
